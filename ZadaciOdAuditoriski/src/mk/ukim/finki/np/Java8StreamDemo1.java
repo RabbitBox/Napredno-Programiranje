@@ -6,7 +6,7 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public class Test {
+public class Java8StreamDemo1 {
 
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1,2,3,4,5,6);
