@@ -11,8 +11,8 @@ public class Java8StreamDemo1 {
     public static void main(String[] args) {
         List<Integer> values = Arrays.asList(1,2,3,4,5,6);
 
-        //System.out.println( values.stream().map(i -> i * 2).reduce(0,((i, j) -> i + j)) );
         /** we are trying to implement / explain this code, step by step */
+        //System.out.println( values.stream().map(i -> i * 2).reduce(0,((i, j) -> i + j)) );
 
         Function<Integer, Integer> f = new Function<Integer, Integer>() {
             @Override

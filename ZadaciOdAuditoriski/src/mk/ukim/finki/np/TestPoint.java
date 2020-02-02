@@ -13,9 +13,12 @@ public class TestPoint {
 
         System.out.println(IntStream.range(0,s1.length()).allMatch(i -> s1.charAt(i) == s2.charAt(i)));
 
-        int [] array = new int[]{1,2,3,4,5};
+        int [] array = new int[3];
+        array[0] = 1;
 
-
+        for(int i : array){
+            System.out.println(i);
+        }
 
 
     }
